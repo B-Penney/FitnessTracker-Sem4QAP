@@ -1,0 +1,7 @@
+1. Explain how your code meets clean code practices by using at least 3 examples of your own code. Screenshots should be used
+
+2. Explain your project. What it does, how it works. Explain the test cases you used
+My project is a Fitness Tracker. You can log workouts, track progress, set goals and checks to see if you've achieved your goal.
+
+3. Outline the needed dependencies. Where did you get them from?
+Junit dependencies, I got it from junit.org
