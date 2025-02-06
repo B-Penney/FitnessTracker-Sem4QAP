@@ -1,7 +1,21 @@
 1. Explain how your code meets clean code practices by using at least 3 examples of your own code. Screenshots should be used
+I use simple and descriptive names so its easy to read and follow. The names of the classes and methods tell you what they do.
+The main class runs the application and the fitness tracker class tracks the logic.
+My code has clear error messages so the user or developers know what the issue is.
+My assertion messages in FitnessTrackerTest make it easy to know what is expected, which in turn makes it easier to debug and maintain.
+My code also protects the internal data so that there isn't any unintentional changes. By keeping my methods focused to one task,
+it makes it easier to do testing, debugging etc.
 
 2. Explain your project. What it does, how it works. Explain the test cases you used
-My project is a Fitness Tracker. You can log workouts, track progress, set goals and checks to see if you've achieved your goal.
+My project is a Fitness Tracker. You can log workouts, track your progress, set goals and check to see if you've achieved your goal(s).
+How it works is essentially the same as what it does; You can set your goals to whatever you want, you log the workouts you complete,
+you can keep track of your progress, check to see if you've met your goal(s) and look at your workout history!
+
+Test Cases:
+- The first test logs 5 workouts, verifies that it comes back the correct number of logs and that the number of logs has increased.
+- The second test sets the goal for 10 workouts, it logs those workouts and then verifies if its true
+- The third test Logs 3 workouts, retrieves that log and checks to verify that 3 workouts have been logged.
+
 
 3. Outline the needed dependencies. Where did you get them from?
 Junit dependencies, I got it from junit.org
